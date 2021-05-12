@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
+import os, subprocess
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 
@@ -66,9 +66,9 @@ autodoc_mock_imports = [
     # 'yaml'
 ]
 
-# breathe_projects = { "mh5_robot": "_xml" }
-# breathe_default_project = "mh5_robot"
-# subprocess.call('doxygen', shell=True)
+breathe_projects = { "mh5_documentation": "_xml" }
+breathe_default_project = "mh5_documentation"
+subprocess.call('doxygen', shell=True)
 
 # # If true, the current module name will be prepended to all description
 # # unit titles (such as .. function::).

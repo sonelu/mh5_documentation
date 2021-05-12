@@ -21,6 +21,22 @@ MH5 Robot Documentation
 
    mh5_hardware/docs/mh5_hardware.rst
 
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: ROS PACKAGES
+
+   mh5_robot/docs/packages/mh5_hardware.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: REFERENCE
+
+   mh5_robot/docs/reference/mh5_hardware_reference.rst
+   mh5_robot/docs/reference/mh5_controllers_reference.rst
+
 .. Indices and tables
 .. ==================
 

@@ -1,3 +1,6 @@
 [submodule "mh5_hardware"]
 	path = mh5_hardware
 	url = https://github.com/SYNTHesse-GIT/mh5_hardware
+[submodule "mh5_robot"]
+	path = mh5_robot
+	url = https://github.com/SYNTHesse-GIT/mh5_robot

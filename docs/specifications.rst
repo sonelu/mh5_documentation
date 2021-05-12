@@ -76,7 +76,7 @@ Software
 
     OS, Raspbian |br| (Debian Buster), Using Linux kernel 5.10 |br| Kernel drivers added for: |br| - SC16IS762 (SPI to UART) |br| - ST7789V (TFT display) |br| - WM8960 (sound) |br| - ADS1015 (for voltage monitoring ADC) |br|  - fan_control
     Software, ROS Noetic, ROS Noetic is installed from source
-    Custom ROS packages, , 	- hardware interface |br| - controllers |br| - UI for robot TFT |br| - URDF with support for RViz and Gazebo |br| - "director" package for scripted moves |br| - vision (in progress)
+    Custom ROS packages, , The following packages are included: |br| - hardware interface |br| - controllers |br| - UI for robot TFT |br| - URDF with support for RViz and Gazebo |br| - "director" package for scripted moves |br| - vision (in progress)
 
 Future plans
 ------------

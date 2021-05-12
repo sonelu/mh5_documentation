@@ -94,8 +94,8 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_baseurl = "https://SYNTHesse-GIT.github.io/MH5/"
 
 html_theme_options = {
-    'collapse_navigation': True,
-    'sticky_navigation': True,
+    # 'collapse_navigation': True,
+    # 'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False

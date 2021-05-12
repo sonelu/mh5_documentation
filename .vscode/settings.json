@@ -1,4 +1,9 @@
 {
     "python.pythonPath": "/Users/Alex/anaconda3/envs/rs/bin/python",
-    "restructuredtext.confPath": "${workspaceFolder}"
+    "restructuredtext.confPath": "${workspaceFolder}",
+    "cSpell.words": [
+        "doxygen",
+        "submodule",
+        "submodules"
+    ]
 }

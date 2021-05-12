@@ -8,13 +8,22 @@ MH5 Robot Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: GETTING STARTED
+
+   docs/principles.rst
+   docs/specifications.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: HARDWARE
 
    mh5_hardware/docs/mh5_hardware.rst
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

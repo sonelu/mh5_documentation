@@ -13,6 +13,7 @@
 import os, subprocess
 import sys
 sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('mh5_robot/mh5_ui/src/'))
 
 import sphinx_rtd_theme
 
@@ -50,14 +51,14 @@ autosummary_generate = True
 autodoc_default_options = {
 #     # 'members': 'var1, var2',
       'member-order': 'bysource',
-#     'special-members': '__init__, __sub__',
-#     # 'special-members': '__init__',
-#     'undoc-members': True,
+      'special-members': '__init__',
+      'undoc-members': True,
 #     'private-members': True,
      'exclude-members': '__weakref__'
 }
-
+# autoclass_content = 'both'
 autodoc_mock_imports = [
+    'snack'
     # 'mh5_director.msg',
     # 'rospkg',
     # 'rospy',

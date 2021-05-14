@@ -72,6 +72,8 @@ Finally the section ``REFERENCE`` contains detail API reference for all packages
 
    mh5_robot/docs/reference/mh5_hardware_reference.rst
    mh5_robot/docs/reference/mh5_controllers_reference.rst
+   mh5_robot/docs/reference/mh5_ui_reference.rst
+   
 
 .. Indices and tables
 .. ==================

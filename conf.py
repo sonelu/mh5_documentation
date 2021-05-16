@@ -58,10 +58,12 @@ autodoc_default_options = {
 }
 # autoclass_content = 'both'
 autodoc_mock_imports = [
-    'snack'
+    'snack',
+    'rospy',
+    'psutil'
     # 'mh5_director.msg',
     # 'rospkg',
-    # 'rospy',
+
     # 'actionlib',
     # 'control_msgs',
     # 'trajectory_msgs',

@@ -60,7 +60,8 @@ autodoc_default_options = {
 autodoc_mock_imports = [
     'snack',
     'rospy',
-    'psutil'
+    'psutil',
+    'sensor_msgs'
     # 'mh5_director.msg',
     # 'rospkg',
 
